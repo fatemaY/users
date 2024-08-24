@@ -1,0 +1,67 @@
+/* Form container styling */
+.pink-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffe6f0; /* Light pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Label styling */
+.pink-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #cc3399; /* Pink label color */
+}
+
+/* Input field styling */
+.pink-form input[type="text"],
+.pink-form input[type="number"],
+.pink-form input[type="email"] {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ff99cc; /* Light pink border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s;
+}
+
+/* Input focus styling */
+.pink-form input[type="text"]:focus,
+.pink-form input[type="number"]:focus,
+.pink-form input[type="email"]:focus {
+    border-color: #ff66b2; /* Deep pink border on focus */
+    outline: none;
+}
+
+/* Submit button styling */
+.pink-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff66b2; /* Deep pink button background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+.pink-button:hover {
+    background-color: #cc3399; /* Darker pink on hover */
+}
+
+/* Response message styling */
+.pink-form h3 {
+    text-align: center;
+    color: #ff66b2; /* Deep pink response message */
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}

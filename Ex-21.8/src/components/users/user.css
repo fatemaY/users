@@ -1,0 +1,85 @@
+.update-form-container {
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .update-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-form-container label {
+    margin-bottom: 10px;
+  }
+  
+  .update-form-container button {
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px 0;
+  }
+  
+  .update-form-container button:hover {
+    background-color: #ad1457;
+  }
+  
+  .user-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fce4ec;
+  }
+  
+  .user-card {
+    background-color: #f8bbd0;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #880e4f;
+  }
+  
+  .user-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .user-card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .user-card-buttons button {
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-card-buttons button:hover {
+    background-color: #ad1457;
+  }
+  
